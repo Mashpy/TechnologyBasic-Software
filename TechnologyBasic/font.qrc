@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="solaimanlipi">fonts/SolaimanLipi_20-04-07.ttf</file>
+    </qresource>
+</RCC>

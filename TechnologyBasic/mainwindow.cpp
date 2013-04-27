@@ -26,6 +26,11 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->lineEdit->setPlaceholderText("Search Terms");
     ui->listWidget->setStyleSheet("QListWidget {color:black ; } QListWidget::item { color: black; margin-right: 8px; margin-left: 8px; padding: 10px; border-bottom: 2px solid grey; } QListWidget::item::selected { background-color:qconicalgradient(cx:0, cy:0, angle:158.3, stop:0 rgba(0, 83, 216, 255), stop:0.429293 rgba(79, 132, 217, 255), stop:0.631313 rgba(255, 255, 255, 255)); }");
     ui->textBrowser->setOpenExternalLinks(true);
+
+    int id = QFontDatabase::addApplicationFont(":/solaimanlipi");
+    QString family = QFontDatabase::applicationFontFamilies(id).at(0);
+    QFont bangla(family);
+    ui->textBrowser->setFont(bangla);
 }
 void MainWindow::mousePressEvent(QMouseEvent *event)
 {

@@ -27,6 +27,8 @@ HEADERS += mainwindow.h
 
 FORMS += mainwindow.ui
 
-RESOURCES +=
+RESOURCES += \
+    font.qrc
+
 
 
