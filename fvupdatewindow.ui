@@ -6,12 +6,19 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>640</width>
-    <height>480</height>
+    <width>396</width>
+    <height>126</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Software Update</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:qlineargradient(spread:pad, x1:0.493, y1:0.0227272, x2:0.498, y2:1, stop:0 #e7ecf2, stop:0.24878 #e4e9ed, stop:1 #c4d1e2);
+border-width: 1px;
+border-style: outset;
+border-radius: 3px;
+border-color: rgb(130, 130, 130);</string>
   </property>
   <layout class="QHBoxLayout" name="horizontalLayout_6">
    <item>
@@ -37,44 +44,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QGroupBox" name="groupBox">
-       <property name="font">
-        <font>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="title">
-        <string>Release Notes:</string>
-       </property>
-       <layout class="QHBoxLayout" name="horizontalLayout_7">
-        <item>
-         <widget class="QWebView" name="releaseNotesWebView">
-          <property name="minimumSize">
-           <size>
-            <width>160</width>
-            <height>80</height>
-           </size>
-          </property>
-          <property name="url">
-           <url>
-            <string>about:blank</string>
-           </url>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </widget>
-     </item>
-     <item>
       <layout class="QHBoxLayout" name="horizontalLayout_3">
-       <item>
-        <widget class="QPushButton" name="skipThisVersionButton">
-         <property name="text">
-          <string>Skip This Version</string>
-         </property>
-        </widget>
-       </item>
        <item>
         <spacer name="horizontalSpacer">
          <property name="orientation">
@@ -90,6 +60,9 @@
        </item>
        <item>
         <widget class="QPushButton" name="remindMeLaterButton">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
          <property name="text">
           <string>Remind Me Later</string>
          </property>
@@ -97,8 +70,11 @@
        </item>
        <item>
         <widget class="QPushButton" name="installUpdateButton">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
          <property name="text">
-          <string>Install Update</string>
+          <string>Download new version</string>
          </property>
          <property name="autoDefault">
           <bool>true</bool>
@@ -114,13 +90,6 @@
    </item>
   </layout>
  </widget>
- <customwidgets>
-  <customwidget>
-   <class>QWebView</class>
-   <extends>QWidget</extends>
-   <header>QtWebKit/QWebView</header>
-  </customwidget>
- </customwidgets>
  <resources/>
  <connections/>
 </ui>

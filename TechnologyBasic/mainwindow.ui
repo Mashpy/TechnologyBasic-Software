@@ -2,122 +2,501 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>497</width>
-    <height>359</height>
+    <width>768</width>
+    <height>599</height>
    </rect>
   </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Button">
+      <brush brushstyle="ConicalGradientPattern">
+       <gradient centralx="0.000000000000000" centraly="0.000000000000000" angle="140.599999999999994" type="ConicalGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>0</red>
+          <green>98</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.429293000000000">
+         <color alpha="255">
+          <red>106</red>
+          <green>164</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.631313000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="ConicalGradientPattern">
+       <gradient centralx="0.000000000000000" centraly="0.000000000000000" angle="140.599999999999994" type="ConicalGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>0</red>
+          <green>98</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.429293000000000">
+         <color alpha="255">
+          <red>106</red>
+          <green>164</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.631313000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="ConicalGradientPattern">
+       <gradient centralx="0.000000000000000" centraly="0.000000000000000" angle="140.599999999999994" type="ConicalGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>0</red>
+          <green>98</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.429293000000000">
+         <color alpha="255">
+          <red>106</red>
+          <green>164</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.631313000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Button">
+      <brush brushstyle="ConicalGradientPattern">
+       <gradient centralx="0.000000000000000" centraly="0.000000000000000" angle="140.599999999999994" type="ConicalGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>0</red>
+          <green>98</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.429293000000000">
+         <color alpha="255">
+          <red>106</red>
+          <green>164</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.631313000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="ConicalGradientPattern">
+       <gradient centralx="0.000000000000000" centraly="0.000000000000000" angle="140.599999999999994" type="ConicalGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>0</red>
+          <green>98</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.429293000000000">
+         <color alpha="255">
+          <red>106</red>
+          <green>164</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.631313000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="ConicalGradientPattern">
+       <gradient centralx="0.000000000000000" centraly="0.000000000000000" angle="140.599999999999994" type="ConicalGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>0</red>
+          <green>98</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.429293000000000">
+         <color alpha="255">
+          <red>106</red>
+          <green>164</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.631313000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Button">
+      <brush brushstyle="ConicalGradientPattern">
+       <gradient centralx="0.000000000000000" centraly="0.000000000000000" angle="140.599999999999994" type="ConicalGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>0</red>
+          <green>98</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.429293000000000">
+         <color alpha="255">
+          <red>106</red>
+          <green>164</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.631313000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="ConicalGradientPattern">
+       <gradient centralx="0.000000000000000" centraly="0.000000000000000" angle="140.599999999999994" type="ConicalGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>0</red>
+          <green>98</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.429293000000000">
+         <color alpha="255">
+          <red>106</red>
+          <green>164</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.631313000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="ConicalGradientPattern">
+       <gradient centralx="0.000000000000000" centraly="0.000000000000000" angle="140.599999999999994" type="ConicalGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>0</red>
+          <green>98</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.429293000000000">
+         <color alpha="255">
+          <red>106</red>
+          <green>164</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.631313000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="cursor">
+   <cursorShape>OpenHandCursor</cursorShape>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::ClickFocus</enum>
+  </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>TechnologyBasic Desktop Application</string>
+  </property>
+  <property name="windowOpacity">
+   <double>0.950000000000000</double>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:qconicalgradient(cx:0, cy:0, angle:140.6, stop:0 rgba(0, 98, 255, 255), stop:0.429293 rgba(106, 164, 255, 255), stop:0.631313 rgba(255, 255, 255, 255));</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QPushButton" name="updateButton">
-    <property name="geometry">
-     <rect>
-      <x>340</x>
-      <y>280</y>
-      <width>161</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="maximumSize">
-     <size>
-      <width>240</width>
-      <height>16777215</height>
-     </size>
-    </property>
-    <property name="text">
-     <string>Check for updates manually</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>10</y>
-      <width>141</width>
-      <height>22</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>10</y>
-      <width>321</width>
-      <height>20</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QListWidget" name="listWidget">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>40</y>
-      <width>200</width>
-      <height>263</height>
-     </rect>
-    </property>
-    <property name="sizePolicy">
-     <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
-      <horstretch>0</horstretch>
-      <verstretch>0</verstretch>
-     </sizepolicy>
-    </property>
-    <property name="minimumSize">
-     <size>
-      <width>200</width>
-      <height>0</height>
-     </size>
-    </property>
-   </widget>
-   <widget class="QTextBrowser" name="textBrowser">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>40</y>
-      <width>231</width>
-      <height>234</height>
-     </rect>
-    </property>
-    <property name="html">
-     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QLabel" name="titleLabel">
+          <property name="cursor">
+           <cursorShape>OpenHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Comic Sans MS&quot;;</string>
+          </property>
+          <property name="text">
+           <string>                  TechnologyBasic Desktop Application</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QToolButton" name="toolButton_2">
+          <property name="text">
+           <string>-</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QToolButton" name="toolButton">
+            <property name="text">
+             <string>X</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QComboBox" name="comboBox">
+            <property name="cursor">
+             <cursorShape>ArrowCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:qlineargradient(spread:pad, x1:0.493, y1:0.0227272, x2:0.498, y2:1, stop:0 #e7ecf2, stop:0.24878 #e4e9ed, stop:1 #c4d1e2);
+border-width: 1px;
+border-style: outset;
+border-radius: 3px;
+border-color: rgb(130, 130, 130);</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="listWidget">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="cursor" stdset="0">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:qconicalgradient(cx:0, cy:0, angle:140.6, stop:0 rgba(0, 98, 255, 255), stop:0.429293 rgba(106, 164, 255, 255), stop:0.631313 rgba(255, 255, 255, 255));</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QLineEdit" name="lineEdit">
+            <property name="styleSheet">
+             <string notr="true">background-color:qlineargradient(spread:pad, x1:0.493, y1:0.0227272, x2:0.498, y2:1, stop:0 #e7ecf2, stop:0.24878 #e4e9ed, stop:1 #c4d1e2);
+border-width: 1px;
+border-style: outset;
+border-radius: 3px;
+border-color: rgb(130, 130, 130);</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextBrowser" name="textBrowser">
+            <property name="font">
+             <font>
+              <family>SolaimanLipi</family>
+             </font>
+            </property>
+            <property name="cursor" stdset="0">
+             <cursorShape>IBeamCursor</cursorShape>
+            </property>
+            <property name="acceptDrops">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:qlineargradient(spread:pad, x1:0.528025, y1:1, x2:0.523, y2:0, stop:0 rgba(255, 255, 255, 0), stop:0.469697 rgba(203, 221, 255, 46), stop:1 rgba(255, 255, 255, 0));
+border: 1px solid gray;
+border-radius: 5px;
+margin-top: 1ex;</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="exitButton">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>310</y>
-      <width>367</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Exit</string>
-    </property>
-   </widget>
-  </widget>
-  <widget class="QMenuBar" name="menuBar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>497</width>
-     <height>20</height>
-    </rect>
-   </property>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SolaimanLipi'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;http://technologybasic.com &quot;&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline; color:#0000ff;&quot;&gt;টেকনোলজি বেসিক&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; ( http://technologybasic.com ) সাইটি গড়ে তোলা হয়েছে কম্পিউটার সায়েন্স স্টুডেন্টদের টেকনোলজি জগতে বিভিন্ন শাখা সম্পর্কে সম্যক সংক্ষিপ্ত ধারনা &lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;বাংলাতে&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; দেয়ার জন্য। এটি এমন একটি প্ল্যাটফরম যেখানে ১০০০ এর চেয়েও বেশি টেকনোলজি টার্মের উপর বেসিক কনসেপ্ট দেয়ার চেষ্টা করা হয়েছে।   সাথে সাথে উইকিপিডিয়া স্টাইলে যুক্ত করা হয়েছে ছবি ও ব্যাকলিঙ্ক, যাতে ভিজিটররা প্রতিটি ওয়ার্ড খুব সহজেই বুঝতে পারে।  আপনি এখানে টেকনোলজির প্রতিটি ওয়ার্ডেরই ব্যাখ্যা পাবেন। &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;পরবর্তীতে টেকনোলজিবেসিক সাইটের টার্ম গুলো যাতে অফলাইনে বিস্তারিত পড়া যায় সেই উদ্দেশ্য থেকে একটি TechnologyBasic Desktop App  তৈরি করা হল। বর্তমানে এর ভার্সন ১.০। এপ্লিকেশনটি তৈরি করা হয়েছে সি প্লাস প্লাস কিউট ফ্রেমওয়ার্কের সাহায্য। &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;এর সোর্সকোড - &lt;/span&gt;&lt;a href=&quot;https://github.com/Mashpy/TechnologyBasic-Software&quot;&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline; color:#0000ff;&quot;&gt;গিটহাবে।&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;আপনি চাইলে এপ্লিকেশনের যে কোন পরিবর্তন বা পরিবর্ধন করতে পারেন। অথবা নতুন কোন ফিচার পরামর্শ বা এপ্লিকেশনে কোন বাগ থাকলে জানাতে পারেন।&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;ডেক্সটপ এপ্লিকেশনে কাজ করেছেন -&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;১। &lt;/span&gt;&lt;a href=&quot;http://mashpysays.blogspot.com/&quot;&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline; color:#0000ff;&quot;&gt;Mashpy Says&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;2। &lt;/span&gt;&lt;a href=&quot;http://minhazulhaque.com/&quot;&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline; color:#0000ff;&quot;&gt;Minhazul Haq Shawon&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt; text-decoration: underline; color:#0000ff;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;----------------------------------------------------&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt; text-decoration: underline; color:#0000ff;&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;পূর্বে অনলাইন ভার্সন তৈরির ক্ষেত্রে যারা কাজ করেছিল - &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;1. &lt;/span&gt;&lt;a href=&quot;http://mashpysays.blogspot.com/&quot;&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline; color:#0000ff;&quot;&gt;Mashpy Says&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;2. &lt;/span&gt;&lt;a href=&quot;http://minhazulhaque.com/&quot;&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline; color:#0000ff;&quot;&gt;Minhazul Haq Shawon&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;3. &lt;/span&gt;&lt;a href=&quot;http://www.facebook.com/Nabil5352&quot;&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline; color:#0000ff;&quot;&gt;Nabil Ahmed&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;4. &lt;/span&gt;&lt;a href=&quot;http://www.facebook.com/sazzadh2&quot;&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline; color:#0000ff;&quot;&gt;Sazzad Hossain&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;5. &lt;/span&gt;&lt;a href=&quot;http://www.facebook.com/pavel.fahmi1&quot;&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline; color:#0000ff;&quot;&gt;Pavel Fahmi&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;6. &lt;/span&gt;&lt;a href=&quot;polycste@gmail.com&quot;&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline; color:#0000ff;&quot;&gt;Fahmida Poly&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;7. &lt;/span&gt;&lt;a href=&quot;http://computerclubbd.com/&quot;&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline; color:#0000ff;&quot;&gt;Foysal Hossain Sohag&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="openExternalLinks">
+             <bool>false</bool>
+            </property>
+            <property name="openLinks">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>toolButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>showMinimized()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>726</x>
+     <y>40</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>784</x>
+     <y>54</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>toolButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>755</x>
+     <y>40</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>784</x>
+     <y>37</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>

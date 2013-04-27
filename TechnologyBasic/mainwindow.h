@@ -28,7 +28,7 @@ private:
 #include <QMainWindow>
 #include <QtSql>
 #include <QListWidget>
-
+#include <QPushButton>
 namespace Ui {
 class MainWindow;
 }
@@ -44,12 +44,16 @@ public:
 private slots:
     void on_listWidget_itemClicked(QListWidgetItem *item);
     void on_lineEdit_textChanged(const QString &arg1);
-
     void on_comboBox_activated(int index);
 
 private:
     Ui::MainWindow *ui;
     QStringList TitleVar, TextVar, CatVar,CatFilVar;
+    QPoint dragPosition;
+
+protected:
+    void mouseMoveEvent(QMouseEvent *event);
+    void mousePressEvent(QMouseEvent *event);
 };
 
 #endif // MAINWINDOW_H

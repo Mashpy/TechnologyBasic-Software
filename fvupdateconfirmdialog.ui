@@ -13,6 +13,13 @@
   <property name="windowTitle">
    <string>Software Update</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:qlineargradient(spread:pad, x1:0.493, y1:0.0227272, x2:0.498, y2:1, stop:0 #e7ecf2, stop:0.24878 #e4e9ed, stop:1 #c4d1e2);
+border-width: 1px;
+border-style: outset;
+border-radius: 3px;
+border-color: rgb(130, 130, 130);</string>
+  </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QLabel" name="updateFileIsLocatedLabel">

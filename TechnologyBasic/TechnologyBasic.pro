@@ -8,7 +8,7 @@ TARGET = TechnologyBasic
 VERSION = 1.0
 TEMPLATE = app
 
-mac:ICON = sample.icns
+//mac:ICON = sample.icns
 win32:RC_FILE = sample.rc
 
 
@@ -26,3 +26,7 @@ SOURCES += main.cpp \
 HEADERS += mainwindow.h
 
 FORMS += mainwindow.ui
+
+RESOURCES +=
+
+

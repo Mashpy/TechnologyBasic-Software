@@ -6,10 +6,10 @@
 
 
 FvUpdateConfirmDialog::FvUpdateConfirmDialog(QWidget *parent) :
-	QDialog(parent),
+        QDialog(parent),
 	m_ui(new Ui::FvUpdateConfirmDialog)
 {
-	m_ui->setupUi(this);
+        m_ui->setupUi(this);
 
 	// Delete on close
 	setAttribute(Qt::WA_DeleteOnClose, true);
